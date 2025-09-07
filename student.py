@@ -1,4 +1,6 @@
-#Júlia Diniz, Letícia Cozzi, Vitória Vieira
+# Leia uma linha com o número do cartão
+
+# Júlia Diniz, Letícia Cozzi, Vitória Vieira
 numero = input()
 impares = []
 for i in numero[-1::-2]:
@@ -13,10 +15,11 @@ soma = sum(pares) + sum(impares)
 if int(soma/10) == soma/10:
   print("Cartão válido")
 else:
-  print("Cartão inválido")
+  print("Cartão inválido")
+
 
 # TODO: implemente a verificação pelo algoritmo de Luhn
 # Siga as dicas do README.
 
 # Ao final, imprima exatamente:
-# print("Cartão válido")  ou  print("Cartão inválido")
+# print("Cartão válido")  ou  print("Cartão inválido")
